@@ -43941,3 +43941,463 @@ Started GET "/assets/config-cfe7ba60081a1a363606184e02839b58.js?body=1" for 127.
 
 
 Started GET "/assets/controllers/ReadingListController-42092573ae7b9628fd0c6bfd6440a465.js?body=1" for 127.0.0.1 at 2015-02-15 03:52:07 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-15 19:16:59 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 677ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:5:10: unexpected newline
+  (in /home/thida/angular/gmailclone/app/assets/javascripts/controllers/ReadingListController.coffee)):
+    3: <head>
+    4:   <title>Gmailclone</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___474176979_89771030'
+
+
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.3ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.3ms)
+
+
+Started GET "/inbox" for 127.0.0.1 at 2015-02-15 19:24:51 +0700
+
+ActionController::RoutingError (No route matches [GET] "/inbox"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/thida/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/thida/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/thida/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (30.3ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.8ms)
+
+
+Started GET "/teaspoon" for 127.0.0.1 at 2015-02-15 19:25:02 +0700
+Processing by Teaspoon::SuiteController#index as HTML
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/teaspoon-0.8.0/app/views/teaspoon/suite/index.html.erb (61.6ms)
+Completed 200 OK in 89ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/teaspoon-f73cf23eab234daa3e5fafedbfb94221.css?body=1" for 127.0.0.1 at 2015-02-15 19:25:02 +0700
+
+
+Started GET "/assets/teaspoon-teaspoon-e5295eba0b9da31920ad1b9c719d87c9.js?body=1" for 127.0.0.1 at 2015-02-15 19:25:02 +0700
+
+
+Started GET "/teaspoon/default?file=%2Fhome%2Fthida%2Fangular%2Fgmailclone%2Fspec%2Fjavascripts%2Fsupport%2Ffactory_spec.coffee" for 127.0.0.1 at 2015-02-15 19:25:05 +0700
+Processing by Teaspoon::SuiteController#show as HTML
+  Parameters: {"file"=>"/home/thida/angular/gmailclone/spec/javascripts/support/factory_spec.coffee", "suite"=>"default"}
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/teaspoon-0.8.0/app/views/teaspoon/suite/_boot.html.erb (301.1ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/teaspoon-0.8.0/app/views/teaspoon/suite/show.html.erb (413.2ms)
+Completed 500 Internal Server Error in 416ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:5:10: unexpected newline
+  (in /home/thida/angular/gmailclone/app/assets/javascripts/controllers/ReadingListController.coffee)):
+    1: <%= javascript_include_tag *@suite.spec_assets %>
+    2: <script type="text/javascript">
+    3:   Teaspoon.onWindowLoad(Teaspoon.execute);
+    4: </script>
+  execjs (2.3.0) lib/execjs/external_runtime.rb:65:in `extract_result'
+  execjs (2.3.0) lib/execjs/external_runtime.rb:32:in `exec'
+  execjs (2.3.0) lib/execjs/external_runtime.rb:21:in `eval'
+  execjs (2.3.0) lib/execjs/external_runtime.rb:39:in `call'
+  coffee-script (2.3.0) lib/coffee_script.rb:76:in `compile'
+  tilt (1.4.1) lib/tilt/coffee.rb:46:in `evaluate'
+  tilt (1.4.1) lib/tilt/template.rb:103:in `render'
+  sprockets (2.12.3) lib/sprockets/context.rb:197:in `block in evaluate'
+  sprockets (2.12.3) lib/sprockets/context.rb:194:in `each'
+  sprockets (2.12.3) lib/sprockets/context.rb:194:in `evaluate'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:12:in `initialize'
+  sprockets (2.12.3) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.12.3) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.12.3) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:111:in `block in resolve_dependencies'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:105:in `each'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:105:in `resolve_dependencies'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:97:in `build_required_assets'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:16:in `initialize'
+  sprockets (2.12.3) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.12.3) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.12.3) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:111:in `block in resolve_dependencies'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:105:in `each'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:105:in `resolve_dependencies'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:97:in `build_required_assets'
+  sprockets (2.12.3) lib/sprockets/processed_asset.rb:16:in `initialize'
+  sprockets (2.12.3) lib/sprockets/base.rb:374:in `new'
+  sprockets (2.12.3) lib/sprockets/base.rb:374:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:395:in `circular_call_protection'
+  sprockets (2.12.3) lib/sprockets/base.rb:373:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:94:in `block in build_asset'
+  sprockets (2.12.3) lib/sprockets/caching.rb:58:in `cache_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/bundled_asset.rb:37:in `init_with'
+  sprockets (2.12.3) lib/sprockets/asset.rb:24:in `from_hash'
+  sprockets (2.12.3) lib/sprockets/caching.rb:54:in `cache_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:93:in `build_asset'
+  sprockets (2.12.3) lib/sprockets/base.rb:287:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/index.rb:61:in `find_asset'
+  sprockets (2.12.3) lib/sprockets/environment.rb:75:in `find_asset'
+  teaspoon (0.8.0) lib/teaspoon/suite.rb:58:in `block in asset_tree'
+  teaspoon (0.8.0) lib/teaspoon/suite.rb:57:in `collect'
+  teaspoon (0.8.0) lib/teaspoon/suite.rb:57:in `asset_tree'
+  teaspoon (0.8.0) lib/teaspoon/suite.rb:34:in `spec_assets'
+  teaspoon (0.8.0) app/views/teaspoon/suite/_boot.html.erb:1:in `__home_thida__rvm_gems_ruby_______gems_teaspoon_______app_views_teaspoon_suite__boot_html_erb___806539089_92129950'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:339:in `render_partial'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:310:in `block in render'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/partial_renderer.rb:309:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  actionview (4.2.0) lib/action_view/helpers/rendering_helper.rb:35:in `render'
+  teaspoon (0.8.0) app/views/teaspoon/suite/show.html.erb:14:in `__home_thida__rvm_gems_ruby_______gems_teaspoon_______app_views_teaspoon_suite_show_html_erb___463649448_97648500'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/thida/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/railtie.rb:194:in `public_send'
+  railties (4.2.0) lib/rails/railtie.rb:194:in `method_missing'
+  actionpack (4.2.0) lib/action_dispatch/routing/mapper.rb:51:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/thida/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/thida/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/thida/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.7ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-15 19:25:54 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 201ms
+
+ActionView::Template::Error (SyntaxError: [stdin]:5:10: unexpected newline
+  (in /home/thida/angular/gmailclone/app/assets/javascripts/controllers/ReadingListController.coffee)):
+    3: <head>
+    4:   <title>Gmailclone</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___474176979_89771030'
+
+
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/thida/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-15 19:31:52 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 647ms (Views: 646.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animations-48708349b99d370530d277d3bd83a35c.css?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/home-685360d04013003d16a0af15cddc6145.css?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/style-0ed422a6693c75a7b31ee470d549e8e6.css?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/application-d5b8fb8cc3da2163e32973e39e62545a.css?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/font-awesome-6c89c596217bb81c443bbc1bb46499d7.css?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/angular-a3188154ae1a27b5ef7e039b60026996.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/angular-route-b1c3f2c246d50a454999b269e1be142a.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/angular-rails-templates-c9e94de22520f11aa00564c9a904ef73.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/angular-animate-6b050cab43fa8f6b5c8c268c53dfd9c7.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/animation/animations-b31a97f545b7abb39180410588843fd6.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/app-c4a0f5812a0f3588d87db3b562d2d456.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/config-cfe7ba60081a1a363606184e02839b58.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/constants/socialIcon-c9c922f040deb375b2388258915a61b8.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/DetailController-5742b31564367a301d1f0adf39d70ef9.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/EmailController-2078d41b81df592173ae4b54cff7f74e.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/EmailCtrl-37b5bab4bb6ed9ef4c8d79818805506c.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/InboxController-d6d48dfe118421c27299f16c42ce7dcb.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/InfoController-182fef53d32753f6337e0a370516ff5b.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/ReadingListController-a3960d3ed355158d7702f654ba026c24.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/RepeatController-9e0b0364901a97447d410164c819eca1.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/controllers/SocialController-a00ddd230f6647983b26f34c02542ee3.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/directives/EmailDrctv-d95a5c444f371d68396f73bad0d56fce.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/directives/InboxDrctv-2e5d152e63b104d040e7c4d157a1bc57.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/directives/myCircle-aaf750f7a92726bd382bd17744eaeb1e.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/directives/myRectangle-8ef2b840e56bbea248cabc936e8ca3a9.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/directives/socialItem-16c43a79bd6651fcd5496f71df4e5201.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/directives/userDetail-6384e09c3dc0c53b5b646eaff2a1d0f6.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/home-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/services/EmailFactory-2c3d64304adc90b15fc4fd6918695645.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/services/InboxFactory-33e2ff2011d7754e17db8974e6f1ba70.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/services/faSocialClassName-8f13cf8206a25174cb2c5b7a36d0dceb.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/services/usersService-dbabdbc1b5bd7a24e28b7eaa4f352b8a.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/animate-ae9fa6a53f11efe3f1899aa0d5ec5e65.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/app-d17c006d95b66d0b4f73be61adb8e018.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/email-41fff92e2e2b9cdf8fc71e0b45bfbca7.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/circle-677b50637d0d6080c399608c24312515.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/email.tmpl-a2ad68f5879bb9b2df9b16d5d6a41c11.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/form-8f3fb1752accf29ef261e9372d58b0cf.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/inbox-de20468c970f7aafa22b7ac43e39c7e5.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/inbox.tmpl-31d531e69d9e7fa65c77711c63cd29ee.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/index-929516845c7b41522d3ff555f670a97f.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/rectangle-18a6e2c9483201f2f1224cc0ecc026c1.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/shape-40272572103945eb4a5dd6d12a439e86.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/slide-1-f414bda42fef6e3c981e7971da8b1002.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/social-edec2b6eaccf052f1513000e000d4958.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/user-28e67d473f9a32413f382775b538b5a2.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/templates/userDetail-3da8d3629b980347edd70d9c38a0a5ca.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
+
+
+Started GET "/assets/application-188e6ec5a3eb6dafe3db72d1cc95ded9.js?body=1" for 127.0.0.1 at 2015-02-15 19:31:53 +0700
